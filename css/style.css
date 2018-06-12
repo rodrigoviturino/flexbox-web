@@ -139,5 +139,40 @@ color: #122ab2;
 /* PRODUTOS */
 .produtos{
     max-width: 960px;
-    margin: 60px;
+    margin: 60px auto;
+}
+
+.produtos h1{
+    font-size: 3em;
+    margin: 0 10px 10px 60px;
+}
+.produtos-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item{
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2{
+    font-size: 3em;
+    color: #a4a4a4;
+    background-color: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple{
+    border-top: solid 8px #ae81ff;
+}
+
+.pink{
+    border-top: solid 8px #f9265e;
+}
+
+.blue{
+    border-top: solid 8px #66d9eb;
+  
 }
